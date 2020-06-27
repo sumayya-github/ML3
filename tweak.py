@@ -46,7 +46,7 @@ while int(accuracy) < 90 :
 		neurons = neurons+10
 		epochs = epochs+1 
 		test = test + 1
-	#model=reset_weights(model)
+	
 	model = Sequential()
 	model = train_model(neurons , model , epochs , test)
 	print("    calculating accuracy . . .")
