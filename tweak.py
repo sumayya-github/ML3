@@ -58,7 +58,7 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("satyamsingh1402@gmail.com", "**********")
+s.login("sumayyakhatoon58@gmail.com", "summaiya@26")
 
 message = "Success. Accuracy meet"
  
